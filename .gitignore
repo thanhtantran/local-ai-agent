@@ -19,8 +19,8 @@ voices/
 *.tflite
 
 # Exception: Un-comment the line below if you WANT to share your custom wake word
-# !wakeword.onnx
-# !wakeword.tflite
+!wakeword.onnx
+!wakeword.tflite
 
 # --- User Configuration & Memory ---
 # Keep chat history local (Privacy)
@@ -32,10 +32,6 @@ chat_memory.json
 # config.json
 
 # --- Temporary/Generated Media ---
-*.wav
-*.mp3
-*.jpg
-*.png
 camera_capture.jpg
 current_image.jpg
 test_audio.wav
