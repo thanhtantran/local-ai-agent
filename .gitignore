@@ -11,6 +11,7 @@ venv/
 # --- Large Models & Binaries (Auto-downloaded) ---
 # Ignore the Piper TTS folder (it's huge and OS-specific)
 piper/
+voices/
 
 # Ignore large model files
 *.onnx
