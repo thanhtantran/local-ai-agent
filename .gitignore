@@ -12,6 +12,7 @@ venv/
 # Ignore the Piper TTS folder (it's huge and OS-specific)
 piper/
 voices/
+models/
 
 # Ignore large model files
 *.onnx
@@ -26,6 +27,7 @@ voices/
 # Keep chat history local (Privacy)
 memory.json
 chat_memory.json
+config.json
 
 # Keep personal API keys or settings local
 # (Optional: comment this out if you WANT to share your config)
